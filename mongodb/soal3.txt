@@ -1,0 +1,17 @@
+1/ show dbs
+2/ db
+3/ use kampus
+4/ db
+5/ db.createUser({user : "andi", pwd : "anditopsecret", roles:["readWrite","dbAdmin"]})
+5/ db.createUser({user : "budi", pwd : "buditopsecret", roles:["readWrite","dbAdmin"]})
+6/ db.createCollection('Dosen')
+7/ db.createCollection('Mahasiswa')
+8/ show collections
+9/ db.Dosen.insert({nama:"Caca",usia:28,asal:"Jakarta",bidang:"Fisika Astrologi",titel:"S2",status:"Honorer",nip:123,matkul:["Metrologi","Kosmologi","Kalkulus"]})
+10/ db.Dosen.insert({nama:"Dedi",usia:29,asal:"Yogyakarta",bidang:"Fisika Terapan",titel:"S3",status:"PNS",nip:456,matkul:["Instrumentasi","Elektronika","Fisika Dasar"]})
+11/ db.Dosen.insert({nama:"Euis",usia:30,asal:"Bandung",bidang:"Fisika Teoretik",titel:"S1",status:"Honorer",nip:789,matkul:["Fisika Dasar","Fisika Modern","Kalkulus"]})
+12/ db.Dosen.find().pretty()
+13/ db.Mahasiswa.insert({nama:"Faza",usia:19,asal:"Aceh",prodi:"Fisika",angkatan:2017,nim:123})
+14/ db.Mahasiswa.insert({nama:"Gilang",usia:20,asal:"Semarang",prodi:"Fisika",angkatan:2017,nim:456})
+15/ db.Mahasiswa.insert({nama:"Hanafi",usia:19,asal:"Makassar",prodi:"Fisika",angkatan:2017,nim:789})
+16/ db.Mahasiswa.find().pretty()
